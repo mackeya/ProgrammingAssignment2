@@ -10,7 +10,7 @@
 
 
 ## Returns a list ("cache matrix") containing the matrix, as well
-## as functions for 
+## as functions for getting and setting the matrix and inverse
 makeCacheMatrix <- function(x = matrix()) {
   # inv will be the cached inverse of the matrix x
   inv <- NULL
