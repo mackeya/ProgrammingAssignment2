@@ -1,5 +1,13 @@
-## Put comments here that give an overall description of what your
-## functions do
+## makeCacheMatrix creates a "cache matrix" object which is
+## capable of storing its inverse. the inverse will be
+## automatically cached as soon as it is computed once.
+
+## the <<- operator "cause[s] a search to made through parent
+## environments for an existing definition of the variable being
+## assigned. If such a variable is found ... then its value is
+## redefined, otherwise assignment takes place
+## in the global environment."
+
 
 ## Returns a list ("cache matrix") containing the matrix, as well
 ## as functions for 
